@@ -8,7 +8,7 @@ using namespace sf;
 
 int vm_x = 1000, vm_y = 100;
 
-RenderWindow window(VideoMode(vm_x, vm_y), "Catinitsa", Style::Default);
+RenderWindow window(VideoMode(vm_x, vm_y), "Cats_initsa", Style::Default);
 
 void cat(char a, int aA, int poz) {
 
@@ -70,7 +70,7 @@ int main()
 				poz = poz + 7 * 10;
 			}
 		}
-		poz = 0;//я сйка из за этой хурмы 30 мин потратил! если  в крадце если не сделать обнуление текст убегал вправо до бесконечности и его небыло видно 
+		poz = 0;
 
 		window.display();
 	}
